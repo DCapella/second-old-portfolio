@@ -39,6 +39,7 @@ a {
   width: 100%;
   height: 100%;
   opacity: 0.8;
+  filter: brightness(75%);
 }
 
 .color-white {
@@ -51,6 +52,7 @@ a {
 }
 
 #about {
+  /* font-size: 125%; */
   position: absolute;
   color: white;
   top: 115%;
@@ -160,6 +162,10 @@ and (orientation: portrait) {
   #footer {
     top: 375%;
   }
+
+  .mobile-text {
+    font-size: 350%;
+  }
 }
 
 /* iPhone X */
@@ -208,6 +214,10 @@ and (orientation: portrait) {
     #footer {
       top: 550%;
     }
+
+    .mobile-text {
+      font-size: 350%;
+    }
 }
 
 /* iPad Pro */
@@ -225,5 +235,9 @@ and (orientation: portrait) {
 
     #footer {
       top: 325%;
+    }
+
+    .mobile-text {
+      font-size: 350%;
     }
 }
